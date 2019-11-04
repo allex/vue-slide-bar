@@ -8,10 +8,7 @@
   "files": [
     "lib"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/biigpongsatorn/vue-slide-bar.git"
-  },
+  "repository": "allex/vue-slide-bar",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --mode development --open --hot",
     "build:lib": "rm -rf ./lib && bili src/index.vue",
